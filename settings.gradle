@@ -1,0 +1,3 @@
+rootProject.name = 'E-Commerce'
+// Consolidated services under `services/` directory
+include ':services:user-service', ':services:product-service', ':services:order-service', ':services:auth-service', ':services:gateway', ':common'
