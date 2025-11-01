@@ -1,11 +1,11 @@
-package com.tutorial.e_kart.gateway;
+package com.tutorial.ekart.user_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GatewayApplication {
+public class UserServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(GatewayApplication.class, args);
+        SpringApplication.run(UserServiceApplication.class, args);
     }
 }

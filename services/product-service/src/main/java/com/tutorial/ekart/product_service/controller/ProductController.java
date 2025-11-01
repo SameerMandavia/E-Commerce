@@ -1,14 +1,14 @@
-package com.tutorial.e_kart.gateway.controller;
+package com.tutorial.ekart.product_service.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/gateway")
-public class GatewayController {
+@RequestMapping("/api/products")
+public class ProductController {
     @GetMapping("/ping")
     public String ping() {
-        return "Gateway service is running";
+        return "Product service is running";
     }
 }

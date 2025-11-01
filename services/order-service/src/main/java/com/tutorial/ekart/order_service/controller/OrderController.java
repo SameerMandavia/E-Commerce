@@ -1,14 +1,14 @@
-package com.tutorial.e_kart.product_service.controller;
+package com.tutorial.ekart.order_service.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/products")
-public class ProductController {
+@RequestMapping("/api/orders")
+public class OrderController {
     @GetMapping("/ping")
     public String ping() {
-        return "Product service is running";
+        return "Order service is running";
     }
 }
