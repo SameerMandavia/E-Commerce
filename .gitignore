@@ -1,37 +1,71 @@
-HELP.md
-.gradle
+### General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+### Build output
 build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+**/build/
+out/
+**/out/
+target/
+**/target/
+.gradle/
+**/.gradle/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+### IDE files
+.idea/
+.vscode/
+.settings/
 *.iml
 *.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+*.iws
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+### OS/Editor temp
+~$*
+*.swp
+*.swo
+*.bak
 
-### VS Code ###
-.vscode/
+### Java
+*.class
+*.jar
+*.war
+*.ear
+
+### Node/npm (if present)
+node_modules/
+
+### Docker
+*.pid
+
+### Misc
+*.env
+*.local
+/.env
+/.env.*
+
+### Service-specific
+services/*/build/
+services/*/.gradle/
+services/*/.idea/
+services/*/.vscode/
+services/*/.settings/
+services/*/out/
+services/*/target/
+services/*/*.iml
+services/*/*.ipr
+services/*/*.iws
+
+### Common module
+common/build/
+common/.gradle/
+common/.idea/
+common/.vscode/
+common/.settings/
+common/out/
+common/target/
+common/*.iml
+common/*.ipr
+common/*.iws
